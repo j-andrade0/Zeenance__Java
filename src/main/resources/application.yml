@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/curso_spring_boot?useTimezone=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/zeenance?useTimezone=true&serverTimezone=UTC
     username: root
     password: A12345678!
   jpa:
