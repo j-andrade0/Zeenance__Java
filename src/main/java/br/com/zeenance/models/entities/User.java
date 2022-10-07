@@ -12,7 +12,7 @@ public class User {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long userId;
+	private Long userId;
 	
 	@NotBlank
 	private String firstName;
@@ -39,7 +39,7 @@ public class User {
 		return userId;
 	}
 
-	public void setUserId(int userId) {
+	public void setUserId(long userId) {
 		this.userId = userId;
 	}
 
